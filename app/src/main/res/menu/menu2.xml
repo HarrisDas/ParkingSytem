@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id ="@+id/show_parkings"
+        android:title="@string/show_bookings"
+        app:showAsAction="never"  />
+    <item
+        android:id ="@+id/view_users"
+        android:title="@string/view_Users"
+        app:showAsAction="never"  />
+    <item
+        android:id ="@+id/sign_out"
+        android:title="@string/sign_out"
+        app:showAsAction="never"  />
+</menu>

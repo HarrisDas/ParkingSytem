@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">ParkingSystem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="user_Not_found">User Not Found</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_sign_first">Don\'t Have any Account</string>
+    <string name="not_sign_second">Sign Up here</string>
+    <string name="admin_logged">Admin Logged In Succesfully</string>
+    <string name="title_activity_user_flow">userFlowActivity</string>
+    <string name="user_logged_in">User Logged In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_error">Password length is too short</string>
+    <string name="password_not_matches">Password Do Not Match</string>
+    <string name="account_successFull">Account  Creation Was Succesfull!</string>
+    <string name="prefType">User_Type</string>
+    <string name="prefKey">User_Info</string>
+    <string name="new_booking">New Booking</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="view_my_booking">View Bookings</string>
+    <string name="start_time">Start time</string>
+    <string name="show_bookings">Show All Bookings</string>
+    <string name="view_Users">View Users</string>
+    <string name="USerName">User Name</string>
+    <string name="enter_feedback">Enter Feedback</string>
+    <string name="Feedback">Send Feedback</string>
+    <string-array name="Hours">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+
+
+    </string-array>
+    <string-array name="Minutes">
+
+        <item>00</item>
+
+        <item>15</item>
+
+        <item>30</item>
+
+        <item>45</item>
+    </string-array>
+    <string-array name="End_hours">
+
+        <item>1</item>
+
+        <item>2</item>
+
+        <item>3</item>
+
+        <item>4</item>
+        <item>5</item>
+
+        <item>6</item>
+    </string-array>
+</resources>

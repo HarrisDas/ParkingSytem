@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_parking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.harri.parkingsystem.UserActivityPanel.selectParkingActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pick A Date For Booking"
+    android:id="@+id/date_picker"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:text="pick Initial time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+
+        android:id="@+id/textView" />
+    <Spinner
+        android:id="@+id/spinner_initial_Hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </Spinner>
+    <Spinner
+
+        android:id="@+id/spinner_initial_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="pick End time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_time"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000"
+
+                 />
+            <Spinner
+                android:id="@+id/spinner_end_Hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </Spinner>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Available Slots"
+            android:id="@+id/setButton"
+            />
+ </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/layout_time"
+
+    android:id="@+id/slot_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_below="@+id/layout_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/layout_up">
+
+
+        <Button
+            android:layout_marginTop="50dp"
+
+            android:text="Slot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Slot1"
+           android:layout_weight="0.3"
+
+            android:onClick="clickedOnBooking"/>
+        <Button
+            android:layout_marginTop="50dp"
+android:layout_marginLeft="50dp"
+            android:text="Slot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Slot2"
+            android:layout_weight="0.3"
+
+            android:onClick="clickedOnBooking"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:layout_below="@+id/layout_up"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+
+        >
+
+
+        <Button
+            android:layout_marginTop="50dp"
+
+            android:text="Slot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Slot3"
+            android:layout_weight="0.3"
+
+            android:onClick="clickedOnBooking"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="Slot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Slot4"
+            android:layout_weight="0.3"
+            android:onClick="clickedOnBooking"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

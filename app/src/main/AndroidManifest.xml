@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harri.parkingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountCreationFlow.AccountCreation" />
+        <activity android:name=".AdminActivityPanel.AdminActivity" />
+        <activity android:name=".UserActivityPanel.UserAccountActivity" />
+        <activity android:name=".UserActivityPanel.BookingCarParking" />
+        <activity android:name=".UserActivityPanel.selectParkingActivity" />
+        <activity android:name=".UserActivityPanel.BookingList" />
+        <activity android:name=".AdminActivityPanel.Admin_Booking_list" />
+        <activity android:name=".AdminActivityPanel.Users_List" />
+        <activity android:name=".UserActivityPanel.sendingFeedbackActivity" />
+        <activity android:name=".AdminActivityPanel.AdminViewAndReplyFeedback"></activity>
+    </application>
+
+</manifest>
